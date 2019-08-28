@@ -1,3 +1,11 @@
 from django.shortcuts import render
+from quizapp.models import StudentDetails
 
-# Create your views here.
+
+def index(request):
+
+    # sdetails = StudentDetails.objects.all()
+    return render(request, "index.html")
+
+
+
