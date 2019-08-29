@@ -19,5 +19,5 @@ from quizapp.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('quiz/',index, name="quizapp")
+    path('quiz/',index, name="quizapp"),
 ]

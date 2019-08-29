@@ -1,8 +1,9 @@
 from django.db import models
+from django_countries.fields import CountryField
 
 
 class StudentDetails(models.Model):
-    username = models.CharField(max_length=50, unique=True)
+    dob = models.DateField()
     email_id = models.EmailField(max_length=254, unique=True)
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
