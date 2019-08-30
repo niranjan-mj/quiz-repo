@@ -38,10 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'quizapp',
-<<<<<<< HEAD
-=======
-    'django_countries',
->>>>>>> 0c37f99a89e2e41ce4fda78d76daf0585f611725
 ]
 
 MIDDLEWARE = [
